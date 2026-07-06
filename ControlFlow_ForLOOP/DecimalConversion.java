@@ -16,7 +16,6 @@ public class DecimalConversion {
 			int rem=n%2;
 			binary=rem+binary;
 			n=n/2;
-			
 		}
 		System.out.println("Binary number is: "+binary);
 		sc.close();
