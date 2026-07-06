@@ -13,19 +13,24 @@ public class UsingNewKeyword {
 		for(int i=0;i<=arr.length-1;i++) {
 			arr[i]=sc.next();
 		}
-//		
-//		
-//		String[] arr=new String[5];
-//		arr[0]="Sai";
-//		arr[1]="sivani";
-//		arr[2]="arjun";
-//		arr[3]="Kushal";
-//		arr[4]="Kowshik";
-////		Updating the array elements;
-//		arr[1]="My LoVe: SiVaNi";
 		for(int i=0;i<=arr.length-1;i++) {
 			System.out.println(arr[i]);
-		}
+		} 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*
+		 * String[] arr=new String[5]; arr[0]="Sai"; arr[1]="sivani"; arr[2]="arjun";
+		 * arr[3]="Kushal"; arr[4]="Kowshik"; // Updating the array elements;
+		 * arr[1]="My LoVe: SiVaNi"; for(int i=0;i<=arr.length-1;i++) {
+		 * System.out.println(arr[i]); }
+		 */
 		sc.close();
 	}
 
