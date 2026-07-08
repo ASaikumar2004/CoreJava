@@ -9,7 +9,7 @@ public class JaggedArray {
 		int row=sc.nextInt();
 		int arr[][]=new int[row][];
 		for(int i=0;i<row;i++) {
-			System.out.println("Enter the no of coloums "+i+" row:");
+			System.out.println("Enter the no of coloums "+(i)+" row:");
 			int col=sc.nextInt();
 			arr[i]=new int[col];
 			System.out.println("Enter the elements: ");
