@@ -26,8 +26,7 @@ public class DiamondPyramid {
 				System.out.print("*");
 			}
 			System.out.println();
-		}
-		
+		}	
 		sc.close();
 	}
 }
