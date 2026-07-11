@@ -2,18 +2,18 @@ package Arrays;
 
 public class SecondMinimum {
 public static void main(String[] args) {
-	int arr[]= {1,7,8,4,6,2,2,5};
-	int min=Integer.MAX_VALUE;
-	int second=Integer.MAX_VALUE;
-	for(int i=0;i<arr.length;i++) {
+	int arr[]= {1,7,8,4,1,2,6,5};
+	int min=arr[0];
+	int smin=arr[1];
+	for(int i=2;i<arr.length;i++) {
 		if(arr[i]<min) {
-			second=min;
+			smin=min;
 			min=arr[i];
 		}
-		else if(arr[i]<second && arr[i]!=min) {
-			second=arr[i];
+		else if(arr[i]<smin && arr[i]>min) {
+			smin=arr[i];
 		}
 	}
-	System.out.println(second);
+	System.out.println("second min: "+smin);
 }
 }

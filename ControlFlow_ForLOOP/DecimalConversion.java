@@ -20,5 +20,4 @@ public class DecimalConversion {
 		System.out.println("Binary number is: "+binary);
 		sc.close();
 	}
-
 }
