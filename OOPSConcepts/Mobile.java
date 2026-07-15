@@ -40,12 +40,24 @@ public class Mobile {
 	
 	public static void main(String[] args) {
 		Mobile m=new Mobile();
+		System.out.println("================Default constructor=============");
 		m.display();
 		
 		Mobile m1=new Mobile(1002,"Oneplus","Nord CE 5",24999.0);
+		System.out.println("==============Parameterized constructor==============");
 		m1.display();
 		
 		Mobile m2=new Mobile(m1);
+		System.out.println("==============Copy constructor=================");
 		m2.display();
+		
+		System.out.println("=============After Updateing the price of mobile 3==============");
+		System.out.println("Before updating the details of mobile 2 ");
+		m1.display();
+		
+		m1.price=23000.0;
+		System.out.println("Details after updateding the price: ");
+		m1.display();
+		
 	}
 }
