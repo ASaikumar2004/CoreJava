@@ -23,6 +23,6 @@ public class product {
 	}
 
 	public static void main(String[] args) {
-		product p = new product(101, "laptop", 20000.0);
+		product p2 = new product(101, "laptop", 20000.0);
 	}
 }
