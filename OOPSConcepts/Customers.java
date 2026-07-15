@@ -31,6 +31,6 @@ public class Customers {
 	}
 	
 	public static void main(String[] args) {
-		Customers cus = new Customers(1001,"Paradise","Chicken Biryani","Hyderabad");
+		Customers cu = new Customers(1001,"Paradise","Chicken Biryani","Hyderabad");
 	}
 }
