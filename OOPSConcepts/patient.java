@@ -38,6 +38,5 @@ public class patient {
 		System.out.println("Patient Registration started");
 		patient p=new patient(101,"siva","fever");
 		patient p1=new patient(101,"siva","fever",2023.0);
-		System.out.println();
 	}
 }
