@@ -7,10 +7,7 @@ public class Calculator {
 	public Calculator(int a,int b) {
 		this.a=a;
 		this.b=b;
-		
-		
 	}
-	
 	void display() {
 		int sum=a+b;
 		System.out.println("Sum is: "+sum);
