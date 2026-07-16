@@ -70,7 +70,6 @@ public class StudentResultManagementSystem {
 		finalgrade();
 	}
 	
-	
 	public static void main(String[] args) {
 		acceptmarks();
 		calculatetotal();
