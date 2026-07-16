@@ -19,10 +19,9 @@ public class product {
 		this(oid,oname);
 		this.price=price;
 		System.out.println("Order price: "+price);
-
 	}
 
 	public static void main(String[] args) {
-		product p2 = new product(101, "laptop", 20000.0);
+		product p = new product(101, "laptop", 20000.0);
 	}
 }
