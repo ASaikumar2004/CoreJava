@@ -39,7 +39,7 @@ public class OnlineFoodOrderingSystem {
 		System.out.println("Quantity    : " + quantity);
 		System.out.println("Price       : ₹" + price);
 		System.out.println("Total Bill  : ₹" + bill);
-		System.out.printf("Discount    : ₹ %.2f"  ,discount);
+		System.out.printf("Discount    : ₹%.2f"  ,discount);
 		System.out.println();
 		System.out.println("Final Bill  : ₹" + finalbill);
 	}
