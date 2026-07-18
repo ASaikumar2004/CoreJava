@@ -36,7 +36,6 @@ public class StudentResultManagementSystem {
 		average=total/5.0;
 		System.out.println("Average marks obtained by the student is: "+average);
 	}
-	
 	//final grade
 	public static void finalgrade() {
 		if(average>=90 && average<=100) {
