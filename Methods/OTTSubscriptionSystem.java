@@ -43,17 +43,17 @@ public class OTTSubscriptionSystem {
 	
 	public void display() {
 
-        System.out.println("========================================");
-        System.out.println("User ID              : " + uid);
-        System.out.println("User Name            : " + uname);
-        System.out.println("Platform Name        : " + platname);
-        System.out.println("Subscription Plan    : " + subplan);
-        System.out.println("Monthly Price        : ₹" + mprice);
-        System.out.println("Number of Months     : " + months);
-        System.out.println("Subscription Amount  : ₹" + subamount);
-        System.out.println("Discount             : ₹" + discount);
-        System.out.println("GST (18%)            : ₹" + gst);
-        System.out.println("Final Payable Amount : ₹" + finalamount);
+		System.out.println("========================================");
+	    System.out.println("User ID              : " + uid);
+	    System.out.println("User Name            : " + uname);
+	    System.out.println("Platform Name        : " + platname);
+	    System.out.println("Subscription Plan    : " + subplan);
+	    System.out.printf("Monthly Price        : ₹%.2f%n", mprice);
+	    System.out.println("Number of Months     : " + months);
+	    System.out.printf("Subscription Amount  : ₹%.2f%n", subamount);
+	    System.out.printf("Discount             : ₹%.2f%n", discount);
+	    System.out.printf("GST (18%%)           : ₹%.2f%n", gst);
+	    System.out.printf("Final Amount         : ₹%.2f%n", finalamount);
         System.out.println();
     }
 	public static void main(String[] args) {
@@ -67,7 +67,7 @@ public class OTTSubscriptionSystem {
 
         OTTSubscriptionSystem user2 = new OTTSubscriptionSystem(
                 102,
-                "Rahul",
+                "sivani",
                 "Amazon Prime",
                 "Standard",
                 299,
