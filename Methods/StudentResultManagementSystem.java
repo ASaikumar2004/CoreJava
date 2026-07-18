@@ -24,6 +24,7 @@ public class StudentResultManagementSystem {
 		social=sc.nextInt();
 		System.out.println("enter marks for maths");
 		maths=sc.nextInt();
+		
 	}
 	//calculate total marks
 	public static void calculatetotal() {
