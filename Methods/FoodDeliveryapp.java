@@ -55,7 +55,7 @@ public class FoodDeliveryapp {
 		System.out.println("Discount       : " + discount);
 		System.out.println("Delivery Charge: " + deliverycharge);
 		System.out.println("Final Bill     : " + finalprice);
-		System.out.println();
+		System.out.println(" ");
 	}
 
 	public static void main(String[] args) {
