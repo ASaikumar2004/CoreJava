@@ -42,6 +42,7 @@ public class FoodDeliveryapp {
 		}
 		finalprice = totalbill - discount + deliverycharge;
 	}
+	
 
 	public void display() {
 		System.out.println("========== BILL ==========");
