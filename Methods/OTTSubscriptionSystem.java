@@ -57,7 +57,7 @@ public class OTTSubscriptionSystem {
         System.out.println( );
     }
 	public static void main(String[] args) {
-		OTTSubscriptionSystem user1 = new OTTSubscriptionSystem(
+		OTTSubscriptionSystem user1 =  new OTTSubscriptionSystem(
                 101,
                 "Sai",
                 "Netflix",
