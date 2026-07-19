@@ -54,7 +54,7 @@ public class OTTSubscriptionSystem {
 	    System.out.printf("Discount             : ₹%.2f%n", discount);
 	    System.out.printf("GST (18%%)           : ₹%.2f%n", gst);
 	    System.out.printf("Final Amount         : ₹%.2f%n", finalamount);
-        System.out.println();
+        System.out.println( );
     }
 	public static void main(String[] args) {
 		OTTSubscriptionSystem user1 = new OTTSubscriptionSystem(
