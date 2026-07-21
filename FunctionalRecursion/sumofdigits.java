@@ -2,7 +2,7 @@ package FunctionalRecursion;
 
 public class sumofdigits {
 	static int sum(int n) {
-		if(n==0) {
+		if(n<=0) {
 			return 0;
 		}
 		else {
@@ -11,8 +11,7 @@ public class sumofdigits {
 	}
 	
 	public static void main(String[] args) {
-		int res=sum(123);
+		int res=sum(-45);
 		System.out.println(res);
 	}
-	
 }
