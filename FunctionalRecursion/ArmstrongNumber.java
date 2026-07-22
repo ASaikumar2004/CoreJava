@@ -22,7 +22,7 @@ public class ArmstrongNumber {
 		int digits=countdigit(n);
 		int res=armstrong(n, digits);
 		System.out.println(res);
-		if(res==n) {
+		if(res==n) { 
 			System.out.println("Given number is armstrong");
 		}
 		else {
