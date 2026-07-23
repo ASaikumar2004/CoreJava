@@ -7,28 +7,23 @@ public class OnlineShoppingProduct {
     double price;
     String category;
 
-    // Only product name
     OnlineShoppingProduct(String productName) {
         this.productName = productName;
         this.price = 0.0;
         this.category = "Not Available";
     }
 
-    // Product name and price
     OnlineShoppingProduct(String productName, double price) {
         this.productName = productName;
         this.price = price;
         this.category = "Not Available";
     }
 
-    // Product name, price, and category
     OnlineShoppingProduct(String productName, double price, String category) {
         this.productName = productName;
         this.price = price;
         this.category = category;
     }
-
-    // Method to display product details
     void display() {
         System.out.println("Product Name : " + productName);
         System.out.println("Price        : " + price);

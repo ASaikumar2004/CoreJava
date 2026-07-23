@@ -17,7 +17,7 @@ class car extends vehicle {
 	}
 }
 
-class electriccar extends car{
+class electriccar extends car  {
 	public void electric() {
 		System.out.println("Vehicle is electric car");
 	}
