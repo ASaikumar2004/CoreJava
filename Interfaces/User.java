@@ -11,6 +11,9 @@ public class User {
 		Music mus=new Samsung();
 		takephoto(cam);
 		mus.playmusic();
+		System.out.println(cam.a);
+		Camera.m1();
+		cam.m2();
 	}
 
 }
