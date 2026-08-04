@@ -10,6 +10,8 @@ public class Palindrome {
 			rev = ch + rev;
 		}
 		System.out.println(rev);
+		
+        //palindromecode
 		if (str.equals(rev)) {
 			System.out.println("Palindome");
 		}
