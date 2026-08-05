@@ -14,7 +14,6 @@ public class CountingSubStringFrequency {
 		}
 	}
 	System.out.println("count of live is: "+count);
-	            
-
+	           
 }
 }
