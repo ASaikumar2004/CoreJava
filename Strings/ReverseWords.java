@@ -4,7 +4,7 @@ public class ReverseWords {
 
 	public static void main(String[] args) {
 
-		String input = "I love Java";
+		String input = "I am Java Developer";
 		String s[] = input.split(" ");
 		String rev = "";
 		
