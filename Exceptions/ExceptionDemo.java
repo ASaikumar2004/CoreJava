@@ -8,8 +8,8 @@ public class ExceptionDemo {
 		res=num/div;
 		}
 		catch(Exception e) {
-//			e.printStackTrace();
-			e.getMessage();
+			e.printStackTrace();
+			System.out.println(e.getMessage());
 		}
 		
 		System.out.println(res);
