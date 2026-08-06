@@ -7,8 +7,9 @@ public class ExceptionDemo {
 		try {
 		res=num/div;
 		}
-		catch(Exception exception) {
-			System.out.println("cannot divide by zero");
+		catch(Exception e) {
+//			e.printStackTrace();
+			e.getMessage();
 		}
 		
 		System.out.println(res);
