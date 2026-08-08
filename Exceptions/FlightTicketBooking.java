@@ -18,7 +18,6 @@ public class FlightTicketBooking {
 			System.out.println("Booking confirmed...!!");
 		}
 	}
-	
 	public static void main(String[] args) {
 		
 		Scanner sc=new Scanner(System.in);
@@ -34,7 +33,5 @@ public class FlightTicketBooking {
 		catch(Exception e) {
 			System.out.println(e.getMessage());
 		}
-		
 	}
-
 }
