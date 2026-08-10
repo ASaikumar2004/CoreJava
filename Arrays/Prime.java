@@ -7,17 +7,16 @@ public class Prime {
 
 		for (int i = 0; i < arr.length; i++) {
 			boolean found = false;
-			for (int j = 1; j <= i; j++) {
+			for (int j = 2; j < arr[i]; j++) {
 				if (arr[i] % j == 0) {
 					found = true;
+					break;
 				}
 			}
 			if(!found) {
 				System.out.print(arr[i]+" ");
 			}
 		}
-		
-
 	}
 
 }
