@@ -13,14 +13,11 @@ public class ArrayListDemo {
 		al.add("sai");
 		al.add("Sivani");
 		al.add("love");
-		
-		al.remove(0);
-		
 		System.out.println(al);
 		
 		Iterator<String> it=al.iterator();
 		while(it.hasNext()) {
-			if(it.next().length()==4) {
+			if(it.next().contains("a")){
 				it.remove();
 			}
 		}
