@@ -14,10 +14,12 @@ public class ProductElement {
 				}
 				else {
 					product*=arr[j];
+					arr[i]=product;
 				}
 			}
-			
-			System.out.print(product+" ");
+		}
+		for(int num:arr) {
+			System.out.print(num+" ");
 		}
 		
 		

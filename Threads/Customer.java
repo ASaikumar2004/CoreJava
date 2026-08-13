@@ -1,15 +1,10 @@
 package Threads;
 
-class Restaurant {
+class Restaurant1 {
 	public void takeorder(String customer) {
 		System.out.println(customer+ " is Taking the order...");
 		
-		try {
-			t.sleep(3000);
-		}
-		catch(InterruptedException e) {
-			e.printStackTrace();
-		}
+		System.out.println("chucchcew");
 		
 		System.out.println(customer+"is taken order.");
 		
@@ -27,7 +22,7 @@ class Customer implements Runnable {
 
 	@Override
 	public void run() {
-		
+		System.out.println();
 	}
 
 
