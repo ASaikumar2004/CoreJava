@@ -1,8 +1,9 @@
 package list;
 
 import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.Collections;
 import java.util.List;
+import java.util.ListIterator;
 
 public class ArrayListDemo {
 
@@ -15,13 +16,18 @@ public class ArrayListDemo {
 		al.add("love");
 		System.out.println(al);
 		
-		Iterator<String> it=al.iterator();
-		while(it.hasNext()) {
-			if(it.next().contains("a")){
-				it.remove();
-			}
-		}
+		/*
+		 * ListIterator<String> it=al.listIterator(al.size()); while(it.hasPrevious()) {
+		 * System.out.println(it.previous()); }
+		 */
 		
+		/*
+		 * while(it.hasNext()) { if(it.next().toUpperCase().contains("A")){ it.remove();
+		 * } }
+		 */
+		
+//		Collections.sort(al);
+//		Collections.reverse(al);
 		System.out.println(al);
 
 	}

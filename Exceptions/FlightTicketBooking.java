@@ -19,19 +19,18 @@ public class FlightTicketBooking {
 		}
 	}
 	public static void main(String[] args) {
-		
 		Scanner sc=new Scanner(System.in);
 		
 		System.out.println("Enter the available");
 		int available=sc.nextInt();
 		System.out.println("Enter the seats required");
 		int seats=sc.nextInt();
-		
 		try {
 			checkavailability(available, seats);
 		}
 		catch(Exception e) {
 			System.out.println(e.getMessage());
 		}
+		sc.close();
 	}
 }
