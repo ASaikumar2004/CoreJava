@@ -1,6 +1,7 @@
 package CollectionsFramework;
 
-public class Student {
+
+public class Student implements Comparable<Student> {
 	
 	int id;
 	String name;
@@ -15,6 +16,12 @@ public class Student {
 	public String toString() {
 		return "id=" + id + ","
 				+ " name=" + name + ", age=" + age + "]";
+	}
+	
+	
+	@Override
+	public int compareTo(Student s) {
+		return Integer.compare(this.id, s.id);
 	}
 	
 	

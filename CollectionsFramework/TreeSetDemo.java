@@ -18,6 +18,14 @@ public class TreeSetDemo {
 		
 		System.out.println(set);
 		
+		Set<Student> tset=new TreeSet<>();
+		
+		tset.add(new Student(101,"sai",23));
+		tset.add(new Student(102,"sivani",21));
+		tset.add(new Student(101,"sai",22));
+		
+		System.out.println(tset);
+		
 	}
 
 }
